@@ -8,7 +8,7 @@ y = np.array([])
 z = np.array([])
 
 
-with open('/Users/robga/Downloads/total_cases.csv') as csvfile:
+with open('total_cases.csv') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     next(plots)
     for row in plots:
