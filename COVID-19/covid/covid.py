@@ -17,9 +17,7 @@ with open('total_cases.csv') as csvfile:
 
 fig, ax = plt.subplots()
 
-
 ax.plot(x,y, label = 'World COVID-19 Cases')
-# ax.plot(x,z, label= "US COVID-19 Cases")
 ax.set_xlabel('Date')
 ax.set_ylabel('Cases')
 ax.legend()
